@@ -4,12 +4,10 @@
         <title>
             New York Times Search
         </title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     </head>
     <body>
         <div class="col-md-1">
-
         </div>
         <div class="col-md-10">
                 <div class="jumbotron">
@@ -22,19 +20,33 @@
                         </div>
                         <div class="panel-body" id="searchParameters">
                           <div id="searchTerm0">
-                              <form
-                                <input type="text" name="searchTerm1">
-                            </form>
+                                <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">1</span>
+                                        <input type="text" class="form-control" placeholder="Search Term" aria-describedby="basic-addon1">
+                                      </div>
+                            
                           </div>
                           <div id="numberOfRec">
-
+                                <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">2</span>
+                                        <input type="text" class="form-control" placeholder="Number of Records to Query Out" aria-describedby="basic-addon1">
+                                      </div>
+                               
                           </div>
                           <div id="startYear">
-
+                                <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">3</span>
+                                        <input type="text" class="form-control" placeholder="Start Year" aria-describedby="basic-addon1">
+                                      </div>
                           </div>
                           <div id="endYear">
-
+                                <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">4</span>
+                                        <input type="text" class="form-control" placeholder="End Year" aria-describedby="basic-addon1">
+                                      </div>
                           </div>
+                          <button id="search">Search</button>
+                          <button id="clear">Clear Results</button>
                         </div>
                 </div>
                 <div class="panel panel-default">
@@ -45,10 +57,10 @@
                          
                         </div>
                 </div>
-
         </div>
         <div class="col-md-1">
-
         </div>
     </body>
 </html>
+
+
